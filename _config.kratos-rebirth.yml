@@ -137,5 +137,5 @@ visit_count:
 additional_injections:
   head: "<style>.kratos-cover{background-position:center 30%!important}</style><link rel=\"stylesheet\" href=\"/css/custom.css\">" # 搜索引擎验证，或是追加的样式表
   footer: "" # 注入到页面主体的内容，例如额外的可见组件
-  after_footer: "<script src=\"/js/custom.js\"></script>" # 站点分析，或是追加的脚本
+  after_footer: "<script src=\"/js/custom.js\"></script><script type=\"module\" src=\"/js/mascot.js\"></script>" # 站点分析，或是追加的脚本
   tools: "" # 注入到页面右下角浮动工具栏里的功能按钮

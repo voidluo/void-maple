@@ -44,6 +44,9 @@ importers:
       hexo-theme-kratos-rebirth:
         specifier: 3.0.1
         version: 3.0.1
+      web-mascot:
+        specifier: 0.0.3
+        version: 0.0.3
 
 packages:
 
@@ -948,6 +951,9 @@ packages:
   warehouse@6.0.0:
     resolution: {integrity: sha512-eOlhyPp5HC951QVDgAeculpSxvfum4UZAbqXSzocqbdiziTseFJFYxmhsKqrQ3wrwgtzPGgkVN2rPL31YLQ0SA==}
     engines: {node: '>=18'}
+
+  web-mascot@0.0.3:
+    resolution: {integrity: sha512-0nvU68szXOmHxMCGpItmKMhnRrg2UbjQjm+NLm/ZYGopmjS5bW4gn0VDRVuvXn0Ll+pOWznuju3D4qora6R7xw==}
 
   webidl-conversions@7.0.0:
     resolution: {integrity: sha512-VwddBukDzu71offAQR975unBIGqfKZpM+8ZX6ySk8nYhVoo5CYaZyzt3YBvYtRtO+aoGlqxPg/B87NGVZ/fu6g==}
@@ -1959,6 +1965,8 @@ snapshots:
       nanoid: 3.3.12
       rfdc: 1.4.1
       through2: 4.0.2
+
+  web-mascot@0.0.3: {}
 
   webidl-conversions@7.0.0: {}
 
